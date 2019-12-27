@@ -1,0 +1,22 @@
+{
+  "name": "family-tree-1",
+  "version": "1.0.0",
+  "description": "Family-Tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyVollrath/Family-Tree.git"
+  },
+  "keywords": [
+    "familyTree"
+  ],
+  "author": "Cody Vollrath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodyVollrath/Family-Tree/issues"
+  },
+  "homepage": "https://github.com/CodyVollrath/Family-Tree#readme"
+}
