@@ -14,6 +14,12 @@ img{
     background-repeat:   no-repeat;
     background-size:     cover;
 }
+.modalImage{
+    width:  200px;
+    height: 300px;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
 .info{
     color: Black;
 }
@@ -32,4 +38,8 @@ img{
     width: 33.33%;
     padding: 5px;
     background-color: #FFFFFF66;
+ }
+ .picture{
+     background: none;
+     border: none;
  }
