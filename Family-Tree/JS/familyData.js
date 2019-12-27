@@ -86,16 +86,16 @@ var family = new Vue({
             Katie:{
                 id:9,
                 name:"Katie Mitchell",
-                age:getAge('11/02/1980'), 
-                birthday:'11/02/1980',
+                age:getAge('11/02/1977'), 
+                birthday:'11/02/1977',
                 bio:"Rich Sister type beat",
                 image:'IMAGES/Katie.jpg'
             },
             Jason:{
                 id:10,
                 name:"Jason Mitchell",
-                age:getAge('06/14/1980'), 
-                birthday:'06/14/1980',
+                age:getAge('06/14/1977'), 
+                birthday:'06/14/1977',
                 bio:"Rich In-Law type beat",
                 image:'IMAGES/Jason.jpg'
             },
@@ -114,6 +114,14 @@ var family = new Vue({
                 birthday:'02/27/1991',
                 bio:'Photography',
                 image:'IMAGES/Haleigh.jpg'
+            },
+            Nikki:{
+                id:13,
+                name:"Nikki Smith",
+                age:getAge('05/30/1992'),
+                birthday:'05/30/1992',
+                bio:'Works',
+                image:'IMAGES/Nikki.jpg'
             }
         }
     },
