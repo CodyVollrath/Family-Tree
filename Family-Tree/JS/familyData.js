@@ -19,7 +19,7 @@ var family = new Vue({
     el:'#familyData',
     data: {
         members:{
-            brenda:{
+            Brenda:{
                 id:1,
                 name:"Brenda Vollrath",
                 age:getAge('07/24/1945'),
@@ -27,7 +27,7 @@ var family = new Vue({
                 bio:'Mother of seven kids - Grandmother of many more',
                 image:'IMAGES/brenda.jpg'
             },
-            alton:{
+            Alton:{
                 id:2,
                 name:"Alton Vollrath",
                 age:getAge('08/21/1937'),
@@ -82,6 +82,38 @@ var family = new Vue({
                 birthday:'09/30/1974',
                 bio:"Another brother, another crazy one",
                 image:'IMAGES/Tracy.jpg'
+            },
+            Katie:{
+                id:9,
+                name:"Katie Mitchell",
+                age:getAge('11/02/1980'), 
+                birthday:'11/02/1980',
+                bio:"Rich Sister type beat",
+                image:'IMAGES/Katie.jpg'
+            },
+            Jason:{
+                id:10,
+                name:"Jason Mitchell",
+                age:getAge('06/14/1980'), 
+                birthday:'06/14/1980',
+                bio:"Rich In-Law type beat",
+                image:'IMAGES/Jason.jpg'
+            },
+            Cody:{
+                id:11,
+                name:"Cody Vollrath",
+                age:getAge('09/15/1997'),
+                birthday:'09/15/1997',
+                bio:'Brogammer',
+                image:'IMAGES/Cody.jpg'
+            },
+            Haleigh:{
+                id:12,
+                name:"Haleigh Riddle",
+                age:getAge('02/27/1991'),
+                birthday:'02/27/1991',
+                bio:'Photography',
+                image:'IMAGES/Haleigh.jpg'
             }
         }
     },
