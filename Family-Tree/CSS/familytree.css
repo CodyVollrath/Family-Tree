@@ -1,7 +1,10 @@
 body{
-    background-image: URL('../IMAGES/Tree.jpg');
-    background-attachment: fixed;
-    background-repeat:no-repeat;
+    background: URL('../IMAGES/Tree.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 img{
     border-radius: 15px;
@@ -28,5 +31,5 @@ img{
     float: left;
     width: 33.33%;
     padding: 5px;
-    background-color: #FFFFFFAA;
+    background-color: #FFFFFF66;
  }
