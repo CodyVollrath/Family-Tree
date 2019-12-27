@@ -23,6 +23,7 @@ var family = new Vue({
                 id:1,
                 name:"Brenda Vollrath",
                 age:getAge('07/24/1945'),
+                birthday:'07/24/1945',
                 bio:'Mother of seven kids - Grandmother of many more',
                 image:'IMAGES/brenda.jpg'
             },
@@ -30,6 +31,7 @@ var family = new Vue({
                 id:2,
                 name:"Alton Vollrath",
                 age:getAge('08/21/1937'),
+                birthday:'08/21/1937',
                 bio:'Father of seven kids - Grandfather of many more',
                 image:'IMAGES/Alton.jpg'
             },
@@ -37,6 +39,7 @@ var family = new Vue({
                 id:3,
                 name:"Harrison Smith",
                 age:getAge('02/25/1967'),
+                birthday:'02/25/1967',
                 bio:'Father of one - Karis Smith',
                 image:'IMAGES/Harrison.jpg'
             },
@@ -44,6 +47,7 @@ var family = new Vue({
                 id:4,
                 name:"Sandy Smith",
                 age:getAge('06/28/1974'),
+                birthday:'06/28/1974',
                 bio:'Mother of one - Karis Smith',
                 image:'IMAGES/Sandy.jpg'
             }
